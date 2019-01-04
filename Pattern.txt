@@ -1,0 +1,25 @@
+
+
+//  Code written in C language
+
+#include<stdio.h>
+int main()
+{
+     int n,i,j;
+     printf("Enter the side of Square:\n");
+     scanf("%d\n",&n);
+     for(i = 1; i <= n; i++ )
+     {
+           for(j = 1; j <= n; j++ )
+           { 
+                  if(i = 1 || i = n || j = 1 || j = n)
+                      printf("%4c",'*');
+                  else
+                      printf("%4c",' ');
+            } 
+            printf("\n");
+     }
+return 0;
+}
+               
+                         
